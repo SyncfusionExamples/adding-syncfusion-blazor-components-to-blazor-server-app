@@ -1,5 +1,7 @@
 # How to Create a Blazor Server App and Add Syncfusion Blazor components to it?
-A getting started Blazor Server App project that are pre-configured to use the Blazor Components of Syncfusion.
+A getting started Blazor Server App project that is pre-configured to use the Blazor Components of Syncfusion.
+
+Documentation: https://ej2.syncfusion.com/blazor/documentation/getting-started/vs-blazor-server/
 
 ## Pre-requisites
 To run this project, you need to install the following pre-requisites in your machine.
