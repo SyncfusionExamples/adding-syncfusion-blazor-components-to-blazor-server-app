@@ -8,7 +8,7 @@ A getting started Blazor Server App project that is pre-configured to use the Bl
 
 * Visual Studio 2022
 
-## How to run this application?
+## How to run the project
 
 * Checkout this project to a location in your disk.
 * Open the solution file using the Visual Studio 2022.
