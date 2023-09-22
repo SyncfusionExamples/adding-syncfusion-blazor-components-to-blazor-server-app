@@ -4,7 +4,7 @@ A getting started Blazor Server App project that is pre-configured to use the Bl
 
 **Documentation**: https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-visual-studio
 
-## Pre-requisites
+## Prerequisites
 
 * Visual Studio 2022
 
