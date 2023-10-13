@@ -1,10 +1,10 @@
 ﻿@page "/"
 
 <SfCalendar TValue="DateTime?"></SfCalendar>
-<br/>
+<br />
 <SfGrid DataSource="@EmployeeData"></SfGrid>
 
-@code{
+@code {
 
     public class Employee
     {
@@ -20,12 +20,12 @@
     protected override void OnInitialized()
     {
         EmployeeData = Enumerable.Range(1, 75).Select(x => new Employee()
-        {
-            EmployeeID = 1000 + x,
-            Name = (new string[] { "ALFKI", "ANANTR", "ANTON", "BLONP", "BOLID" })[new Random().Next(5)],
-            Designation = (new string[] { "CMBKIO", "ERIOPL", "EWOPHL", "WWIOPPS", "MLOPSSJ" })[new Random().Next(5)],
-            DOJ = DateTime.Now.AddDays(-x),
-            Salary = 20000 * x
-        }).ToList();
+            {
+                EmployeeID = 1000 + x,
+                Name = (new string[] { "ALFKI", "ANANTR", "ANTON", "BLONP", "BOLID" })[new Random().Next(5)],
+                Designation = (new string[] { "CMBKIO", "ERIOPL", "EWOPHL", "WWIOPPS", "MLOPSSJ" })[new Random().Next(5)],
+                DOJ = DateTime.Now.AddDays(-x),
+                Salary = 20000 * x
+            }).ToList();
     }
 }
